@@ -106,4 +106,3 @@ with open(location + os.sep + 'Uploaded subjects.csv', 'wt') as file_up:
         uploaded += 1
         file_up.write(subject.id + ',' + list(subject.metadata.values())[0] + '\n')
     print(uploaded, ' subjects found in the subject set, see the full list in Uploaded subjects.csv.')
-# removed comment in line 100
