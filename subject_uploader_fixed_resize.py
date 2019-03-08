@@ -97,7 +97,7 @@ for filename, metadata in subject_metadata.items():
 print(new_subjects, 'new subjects created and uploaded')
 print('Uploading complete, Please wait while the full subject listing is prepared and saved in')
 print('"Uploaded subjects.csv" in the drive with the original images')
-
+# add a comment to test the git Pycharm link
 uploaded = 0
 with open(location + os.sep + 'Uploaded subjects.csv', 'wt') as file_up:
     file_up.write('subject.id' + ',' + 'Filename' + '\n')
